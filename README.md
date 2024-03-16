@@ -93,3 +93,13 @@ php artisan migrate
 
  <br>
 This Dockerfile sets up the PHP environment with necessary extensions and tools for running Laravel applications. Additionally, it configures a system user to run Composer and Artisan commands, and sets up a cron job for running scheduled tasks.
+
+
+<br>
+<br>
+
+- **Nginx**: Web server that serves the Laravel application.
+- **MySQL 8**: Database server for storing application data.
+- **Adminer**: Database management tool for interacting with the database.
+
+
