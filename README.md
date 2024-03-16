@@ -23,6 +23,7 @@ This is a simple Docker configuration for running Laravel applications with Ngin
 5. Run `docker-compose up -d` to start the containers.
 <br>
 <br>
+
 ## Interacting with Containers
 
 To interact with the container, use the following command:
@@ -32,11 +33,12 @@ docker exec -it laravel_application bash
 ```
 <br>
 <br>
+
 ## Database Client
 
 You can use Adminer to interact with the database. It can be accessed via the following URL:
 
-```json
+```bash
 http://localhost:{APP_PORT}/adminer.php
 ```
 
@@ -44,6 +46,18 @@ Adminer is located in the public folder of your Laravel project.
 
 <br>
 <br>
+
+## Screenshot
+ ![Application](https://github.com/ferdous-ahmed-khan/dockerize-laravel-mysql-nginx/blob/main/public/readme-img/laravel_application.jpg)
+
+<br>
+<br>
+ 
+ ![Application](https://github.com/ferdous-ahmed-khan/dockerize-laravel-mysql-nginx/blob/main/public/readme-img/database_client.jpg)
+
+<br>
+<br>
+
 ## For Laravel 11
 
 If you're using Laravel 11, please ensure the database configuration in the `.env` file is correct. Laravel 11 uses SQLite as the default database. You need to change it to MySQL and migrate the database.
@@ -52,10 +66,13 @@ Interact with the container and run the following command to migrate the databas
 
 ```bash
 docker exec -it laravel_application bash
+```
+```bash
 php artisan migrate
 ```
 <br>
 <br>
+
 ## This Dockerfile includes the following services:
 
 - **PHP 8.2**: The base image for PHP 8.2 with FPM (FastCGI Process Manager).
