@@ -53,7 +53,7 @@ Adminer is located in the public folder of your Laravel project.
 <br>
 <br>
  
- ![Application](https://github.com/ferdous-ahmed-khan/dockerize-laravel-mysql-nginx/blob/main/public/readme-img/database_client.jpg)
+ ![Application](https://github.com/ferdous-ahmed-khan/dockerize-laravel-mysql-nginx/blob/main/public/readme-img/database_client_img.jpg)
 
 <br>
 <br>
