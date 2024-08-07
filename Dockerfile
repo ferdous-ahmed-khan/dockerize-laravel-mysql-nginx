@@ -48,5 +48,3 @@ USER $user
 
 COPY . .
 
-RUN echo "* */1 * * * php /var/www/artisan apply:fine >> /dev/null 2>&1" | crontab -
-
